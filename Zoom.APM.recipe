@@ -5,7 +5,7 @@
 		<key>Description</key>
 		<string>Move Zoom package in JAMF PST</string>
 		<key>Identifier</key>
-		<string>com.github.jherrinjr.APM.Zoom.FSLead</string>
+		<string>com.github.jherrinjr.APM.Zoom</string>
 		<key>Input</key>
 		<dict></dict>
 		<key>MinimumVersion</key>

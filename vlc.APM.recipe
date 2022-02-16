@@ -5,7 +5,7 @@
 		<key>Description</key>
 		<string>Move VLC package in JAMF PST</string>
 		<key>Identifier</key>
-		<string>com.github.jherrinjr.APM.vlc.FSLead</string>
+		<string>com.github.jherrinjr.APM.vlc</string>
 		<key>Input</key>
 		<dict></dict>
 		<key>MinimumVersion</key>

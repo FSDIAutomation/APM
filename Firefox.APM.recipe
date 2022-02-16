@@ -5,7 +5,7 @@
 		<key>Description</key>
 		<string>Move Firefox package in JAMF PST</string>
 		<key>Identifier</key>
-		<string>com.github.jherrinjr.APM.Firefox.FSLead</string>
+		<string>com.github.jherrinjr.APM.Firefox</string>
 		<key>Input</key>
 		<dict></dict>
 		<key>MinimumVersion</key>
