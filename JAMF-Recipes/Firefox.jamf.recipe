@@ -30,7 +30,7 @@ No idea if all Firefox builds are available in all the same localizations, so yo
 		<key>POLICY_RUN_COMMAND</key>
 		<string>chown -R "$(stat -f%Su /dev/console):staff" "/Applications/%NAME%.app" &amp;&amp; echo "Corrected permissions for %NAME%."</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>Policy-install-latest.xml</string>
+		<string>Policy-install-latest-featured.xml</string>
 		<key>REINSTALL_BUTTON_TEXT</key>
 		<string>Install %version%</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
