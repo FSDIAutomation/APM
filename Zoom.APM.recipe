@@ -29,7 +29,7 @@
 					<string>prompt</string>
 				</dict>
 				<key>Processor</key>
-				<string>APM</string>
+				<string>com.github.thejacobsales.APM</string>
 			</dict>
 		</array>
 	</dict>
