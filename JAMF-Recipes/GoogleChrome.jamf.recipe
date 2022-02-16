@@ -3,14 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version of Firefox and makes a pkg. Then, uploads the package to the Jamf Pro Server and creates a Self Service Policy and Smart Group. Values for FIREFOX_BUILD correspond to directories here: http://download-origin.cdn.mozilla.net/pub/mozilla.org/firefox/releases/
-Some useful values are: 'latest', 'latest-10.0esr', 'latest-esr', 'latest-3.6', 'latest-beta'
-LOCALE corresponds to directories at http://download-origin.cdn.mozilla.net/pub/mozilla.org/firefox/releases/$FIREFOX_BUILD/mac/
-Examples include 'en-US', 'de', 'ja-JP-mac', 'sv-SE', and 'zh-TW'
-No idea if all Firefox builds are available in all the same localizations, so you may need to verify that any particular combination is offered.
+	<string>Downloads the latest version of Google Chrome and makes a pkg. 
 </string>
 	<key>Identifier</key>
-	<string>com.github.jherrinjr.jamf.Firefox</string>
+	<string>com.github.jherrinjr.jamf.googlechrome</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
@@ -22,7 +18,7 @@ No idea if all Firefox builds are available in all the same localizations, so yo
 		<key>INSTALL_BUTTON_TEXT</key>
 		<string>Install</string>
 		<key>NAME</key>
-		<string>Opera</string>
+		<string>Google Chrome</string>
 		<key>POLICY_CATEGORY</key>
 		<string>Latest Version</string>
 		<key>POLICY_NAME</key>
@@ -34,7 +30,7 @@ No idea if all Firefox builds are available in all the same localizations, so yo
 		<key>REINSTALL_BUTTON_TEXT</key>
 		<string>Install %version%</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string>Mozilla Firefox is a free and open source web browser.</string>
+		<string>Google Chrome is a free and open source web browser.</string>
 		<key>SELF_SERVICE_DISPLAY_NAME</key>
 		<string>Install Latest %NAME%</string>
 		<key>SELF_SERVICE_ICON</key>
@@ -47,7 +43,7 @@ No idea if all Firefox builds are available in all the same localizations, so yo
 	<key>MinimumVersion</key>
 	<string>2.3</string>
 	<key>ParentRecipe</key>
-	<string>com.github.autopkg.pkg.Firefox_EN</string>
+	<string>com.github.autopkg.pkg.googlechrome</string>
 	<key>Process</key>
 	<array>
 		<dict>
