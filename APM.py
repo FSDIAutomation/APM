@@ -683,7 +683,7 @@ class APM(URLGetter):
         if cache["version"] != "":
             self.logger.info("Cache load version successful, checking delta...")
             deltaInSeconds = 60 * 60 * 24 * int(self.env.get("productionDelay"))
-            if time.time() + deltaInSeconds < cache["date"]:
+            if cache["date"] + deltaInSeconds < time.time():
                 self.logger.info("Delta time has elapsed running prod...")
                 print("Delta time has elapsed running prod...")
                 prod = Prod(self, pst, cache)
