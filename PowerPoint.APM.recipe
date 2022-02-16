@@ -5,7 +5,7 @@
 		<key>Description</key>
 		<string>Move PowerPoint package in JAMF PST</string>
 		<key>Identifier</key>
-		<string>local.APM.PowerPoint.FSLead</string>
+		<string>com.github.jherrinjr.APM.PowerPoint.FSLead</string>
 		<key>Input</key>
 		<dict></dict>
 		<key>MinimumVersion</key>

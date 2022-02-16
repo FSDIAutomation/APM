@@ -5,7 +5,7 @@
 		<key>Description</key>
 		<string>Move Chrome package in JAMF PST</string>
 		<key>Identifier</key>
-		<string>local.APM.Chrome.FSLead</string>
+		<string>com.github.jherrinjr.APM.Chrome.FSLead</string>
 		<key>Input</key>
 		<dict></dict>
 		<key>MinimumVersion</key>

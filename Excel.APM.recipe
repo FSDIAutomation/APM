@@ -5,7 +5,7 @@
 		<key>Description</key>
 		<string>Move Excel package in JAMF PST</string>
 		<key>Identifier</key>
-		<string>local.APM.Excel.FSLead</string>
+		<string>com.github.jherrinjr.APM.Excel.FSLead</string>
 		<key>Input</key>
 		<dict></dict>
 		<key>MinimumVersion</key>
