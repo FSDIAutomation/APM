@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Move opera package in JAMF PST</string>
+	<key>Identifier</key>
+	<string>com.github.jherrinjr.APM.opera</string>
+	<key>Input</key>
+	<dict/>
+	<key>MinimumVersion</key>
+	<string>1.0.0</string>
+	<key>ParentRecipe</key>
+	<string>com.github.jherrinjr.jamf.opera</string>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>applicationTitle</key>
+				<string>Opera</string>
+				<key>generalPolicyName</key>
+				<string>Install Latest Opera</string>
+				<key>patchSoftwareTitle</key>
+				<string>Opera</string>
+				<key>gammaDistributionMethod</key>
+				<string>self service</string>
+				<key>productionDelay</key>
+				<integer>7</integer>
+				<key>prodDistributionMethod</key>
+				<string>prompt</string>
+			</dict>
+			<key>Processor</key>
+			<string>com.github.jherrinjr.apm/APM</string>
+		</dict>
+	</array>
+</dict>
+</plist>

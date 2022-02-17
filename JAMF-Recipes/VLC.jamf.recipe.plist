@@ -10,11 +10,11 @@ Examples include 'en-US', 'de', 'ja-JP-mac', 'sv-SE', and 'zh-TW'
 No idea if all Firefox builds are available in all the same localizations, so you may need to verify that any particular combination is offered.
 </string>
 	<key>Identifier</key>
-	<string>com.github.jherrinjr.jamf.Firefox</string>
+	<string>com.github.jherrinjr.jamf.VLC</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
-		<string>Productivity</string>
+		<string>Latest Version</string>
 		<key>GROUP_NAME</key>
 		<string>AllDevices</string>
 		<key>GROUP_TEMPLATE</key>
@@ -22,7 +22,7 @@ No idea if all Firefox builds are available in all the same localizations, so yo
 		<key>INSTALL_BUTTON_TEXT</key>
 		<string>Install</string>
 		<key>NAME</key>
-		<string>Opera</string>
+		<string>VLC</string>
 		<key>POLICY_CATEGORY</key>
 		<string>Latest Version</string>
 		<key>POLICY_NAME</key>
@@ -32,22 +32,20 @@ No idea if all Firefox builds are available in all the same localizations, so yo
 		<key>POLICY_TEMPLATE</key>
 		<string>Policy-install-latest-featured.xml</string>
 		<key>REINSTALL_BUTTON_TEXT</key>
-		<string>Install %version%</string>
+		<string>Reinstall</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string>Mozilla Firefox is a free and open source web browser.</string>
+		<string>VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols.</string>
 		<key>SELF_SERVICE_DISPLAY_NAME</key>
 		<string>Install Latest %NAME%</string>
 		<key>SELF_SERVICE_ICON</key>
 		<string>%NAME%.png</string>
-		<key>TESTING_GROUP_NAME</key>
-		<string>Testing</string>
 		<key>UPDATE_PREDICATE</key>
 		<string>pkg_uploaded == False</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>2.3</string>
 	<key>ParentRecipe</key>
-	<string>com.github.autopkg.pkg.Firefox_EN</string>
+	<string>com.github.autopkg.pkg.VLC</string>
 	<key>Process</key>
 	<array>
 		<dict>
