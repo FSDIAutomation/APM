@@ -5,7 +5,7 @@
 		<key>Description</key>
 		<string>Move Chrome package in JAMF PST</string>
 		<key>Identifier</key>
-		<string>com.github.jherrinjr.APM.Chrome</string>
+		<string>com.github.jherrinjr.apm.chrome</string>
 		<key>Input</key>
 		<dict></dict>
 		<key>MinimumVersion</key>
@@ -29,7 +29,7 @@
 					<string>prompt</string>
 				</dict>
 				<key>Processor</key>
-				<string>com.github.jherrinjr.apm/APM</string>
+				<string>com.github.jherrinjr.apm/apm</string>
 			</dict>
 		</array>
 	</dict>
