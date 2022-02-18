@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ad5c3b2d-2412-4eef-bc22-987bb8043458" name="Changes" comment="updated some descriptions">
+      <change beforePath="$PROJECT_DIR$/JAMF-Recipes/Opera.jamf.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/JAMF-Recipes/Opera.jamf.recipe" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="25GnmmXL5x9Wwm6nWAQIFWNipnO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/JAMF-Recipes" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/JAMF-Recipes" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ad5c3b2d-2412-4eef-bc22-987bb8043458" name="Changes" comment="" />
+      <created>1645162451207</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1645162451207</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Added many new JAMF recipes that can be used with APM recipes. This is a rough draft for the following recipes.&#10;Chrome&#10;Excel&#10;Word&#10;Powerpoint&#10;Zoom">
+      <created>1645164014719</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1645164014719</updated>
+    </task>
+    <task id="LOCAL-00002" summary="updated some descriptions">
+      <created>1645164208888</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1645164208888</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added many new JAMF recipes that can be used with APM recipes. This is a rough draft for the following recipes.&#10;Chrome&#10;Excel&#10;Word&#10;Powerpoint&#10;Zoom" />
+    <MESSAGE value="updated some descriptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated some descriptions" />
+  </component>
+</project>
