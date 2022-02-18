@@ -3,10 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version of Google Chrome Universal and makes a pkg. 
-</string>
+	<string>Uses parent download recipe to download the latest unlicensed Microsoft Excel for Office 365 installer package and import it into the JSS.</string>
 	<key>Identifier</key>
-	<string>com.github.jherrinjr.jamf.googlechrome</string>
+	<string>com.github.jherrinjr.jamf.microsoftexcel365</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
@@ -18,28 +17,28 @@
 		<key>INSTALL_BUTTON_TEXT</key>
 		<string>Install</string>
 		<key>NAME</key>
-		<string>Google Chrome</string>
+		<string>Microsoft Excel</string>
 		<key>POLICY_CATEGORY</key>
 		<string>Latest Version</string>
 		<key>POLICY_NAME</key>
 		<string>Install Latest %NAME%</string>
 		<key>POLICY_RUN_COMMAND</key>
-		<string>chown -R &quot;$(stat -f%Su /dev/console):staff&quot; &quot;/Applications/%NAME%.app&quot; &amp;&amp; echo &quot;Corrected permissions for %NAME%.&quot;</string>
+		<string>chown -R "$(stat -f%Su /dev/console):staff" "/Applications/%NAME%.app" &amp;&amp; echo "Corrected permissions for %NAME%."</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>Policy-install-latest-featured.xml</string>
 		<key>REINSTALL_BUTTON_TEXT</key>
 		<string>Reinstall</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string>Google Chrome is a free and open source web browser.</string>
-		<key>SELF_SERVICE_DISPLAY_NAME</key>
+		<string>Microsoft Excel is a spreadsheet application featuring calculation, graphing tools, PivotTables, and a macro programming language called Visual Basic for Applications.</string>
+        <key>SELF_SERVICE_DISPLAY_NAME</key>
 		<string>Install Latest %NAME%</string>
 		<key>SELF_SERVICE_ICON</key>
-		<string>%NAME%.png</string>
+		<string>MicrosoftExcel365.png</string>
 	</dict>
 	<key>MinimumVersion</key>
-	<string>2.3</string>
+	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.autopkg.pkg.googlechrome</string>
+	<string>com.github.rtrouton.pkg.microsoftexcel365</string>
 	<key>Process</key>
 	<array>
 		<dict>

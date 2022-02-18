@@ -22,7 +22,7 @@
 				<key>patchSoftwareTitle</key>
 				<string>Opera</string>
 				<key>gammaDistributionMethod</key>
-				<string>self service</string>
+				<string>prompt</string>
 				<key>productionDelay</key>
 				<integer>7</integer>
 				<key>prodDistributionMethod</key>

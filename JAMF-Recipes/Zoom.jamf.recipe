@@ -3,10 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version of Google Chrome Universal and makes a pkg. 
-</string>
+	<string>Downloads the current release version of Zoom Universal and builds a package. Then, uploads to the JSS.</string>
 	<key>Identifier</key>
-	<string>com.github.jherrinjr.jamf.googlechrome</string>
+	<string>com.github.jherrinjr.jamf.zoom</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
@@ -18,28 +17,28 @@
 		<key>INSTALL_BUTTON_TEXT</key>
 		<string>Install</string>
 		<key>NAME</key>
-		<string>Google Chrome</string>
+		<string>Zoom</string>
 		<key>POLICY_CATEGORY</key>
 		<string>Latest Version</string>
 		<key>POLICY_NAME</key>
 		<string>Install Latest %NAME%</string>
 		<key>POLICY_RUN_COMMAND</key>
-		<string>chown -R &quot;$(stat -f%Su /dev/console):staff&quot; &quot;/Applications/%NAME%.app&quot; &amp;&amp; echo &quot;Corrected permissions for %NAME%.&quot;</string>
+		<string>chown -R "$(stat -f%Su /dev/console):staff" "/Applications/%NAME%.app" &amp;&amp; echo "Corrected permissions for %NAME%."</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>Policy-install-latest-featured.xml</string>
 		<key>REINSTALL_BUTTON_TEXT</key>
 		<string>Reinstall</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string>Google Chrome is a free and open source web browser.</string>
+		<string>The Zoom app provides cloud-hosted video conferencing, plus online meetings and group messaging.</string>
 		<key>SELF_SERVICE_DISPLAY_NAME</key>
 		<string>Install Latest %NAME%</string>
 		<key>SELF_SERVICE_ICON</key>
 		<string>%NAME%.png</string>
 	</dict>
 	<key>MinimumVersion</key>
-	<string>2.3</string>
+	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.autopkg.pkg.googlechrome</string>
+	<string>com.github.homebysix.pkg.Zoom</string>
 	<key>Process</key>
 	<array>
 		<dict>
