@@ -33,6 +33,6 @@
 		</dict>
 	</array>
 	<key>ParentRecipe</key>
-	<string>com.github.jherrinjr.jamf.VLC</string>
+	<string>com.github.jherrinjr.jamf.opera</string>
 </dict>
 </plist>
