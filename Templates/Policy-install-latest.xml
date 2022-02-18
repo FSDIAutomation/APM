@@ -28,7 +28,6 @@
 		<size>0</size>
 	</scripts>
 	<self_service>
-        <feature_on_main_page>true</feature_on_main_page>
 		<use_for_self_service>true</use_for_self_service>
 		<install_button_text>%INSTALL_BUTTON_TEXT%</install_button_text>
 		<reinstall_button_text>%REINSTALL_BUTTON_TEXT%</reinstall_button_text>
