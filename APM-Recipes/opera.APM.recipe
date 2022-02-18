@@ -32,5 +32,7 @@
 			<string>apm</string>
 		</dict>
 	</array>
+	<key>ParentRecipe</key>
+	<string>com.github.jherrinjr.jamf.VLC</string>
 </dict>
 </plist>

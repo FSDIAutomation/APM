@@ -29,7 +29,7 @@
 					<string>prompt</string>
 				</dict>
 				<key>Processor</key>
-				<string>com.github.jherrinjr.apm/APM</string>
+				<string>apm</string>
 			</dict>
 		</array>
 	</dict>
