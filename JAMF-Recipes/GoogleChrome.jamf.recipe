@@ -10,7 +10,7 @@
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
-		<string>Productivity</string>
+		<string>Latest Version</string>
 		<key>GROUP_NAME</key>
 		<string>AllDevices</string>
 		<key>GROUP_TEMPLATE</key>
@@ -28,17 +28,13 @@
 		<key>POLICY_TEMPLATE</key>
 		<string>Policy-install-latest-featured.xml</string>
 		<key>REINSTALL_BUTTON_TEXT</key>
-		<string>Install %version%</string>
+		<string>Reinstall</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
 		<string>Google Chrome is a free and open source web browser.</string>
 		<key>SELF_SERVICE_DISPLAY_NAME</key>
 		<string>Install Latest %NAME%</string>
 		<key>SELF_SERVICE_ICON</key>
-		<string>%NAME%.png</string>
-		<key>TESTING_GROUP_NAME</key>
-		<string>Testing</string>
-		<key>UPDATE_PREDICATE</key>
-		<string>pkg_uploaded == False</string>
+		<string>GoogleChrome.png</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>2.3</string>

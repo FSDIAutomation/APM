@@ -39,8 +39,6 @@ No idea if all Firefox builds are available in all the same localizations, so yo
 		<string>Install Latest %NAME%</string>
 		<key>SELF_SERVICE_ICON</key>
 		<string>%NAME%.png</string>
-		<key>UPDATE_PREDICATE</key>
-		<string>pkg_uploaded == False</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>2.3</string>

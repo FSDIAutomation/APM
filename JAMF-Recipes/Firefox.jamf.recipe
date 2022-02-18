@@ -37,7 +37,7 @@ No idea if all Firefox builds are available in all the same localizations, so yo
 		<string>Mozilla Firefox is a free and open source web browser.</string>
 		<key>SELF_SERVICE_DISPLAY_NAME</key>
 		<string>Install Latest %NAME%</string>
-		<key>SELF_SERVICE_ICON</key>
+		<key>SELF_SERVICE_ICON</key>s
 		<string>%NAME%.png</string>
 	</dict>
 	<key>MinimumVersion</key>

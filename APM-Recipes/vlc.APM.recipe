@@ -29,10 +29,10 @@
 				<string>prompt</string>
 			</dict>
 			<key>Processor</key>
-			<string>apm</string>
+			<string>APM</string>
 		</dict>
 	</array>
 	<key>ParentRecipe</key>
-	<string>com.github.jherrinjr.jamf.opera</string>
+	<string>com.github.jherrinjr.jamf.vlc</string>
 </dict>
 </plist>
