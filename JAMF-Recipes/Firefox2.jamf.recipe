@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version of Firefox and makes a pkg.
+	<string>Downloads the latest version of Google Chrome Universal and makes a pkg. 
 </string>
 	<key>Identifier</key>
-	<string>com.github.jherrinjr.jamf.Firefox</string>
+	<string>com.github.jherrinjr.jamf.firefox</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
@@ -18,7 +18,7 @@
 		<key>INSTALL_BUTTON_TEXT</key>
 		<string>Install</string>
 		<key>NAME</key>
-		<string>Firefox</string>
+		<string>Google Chrome</string>
 		<key>POLICY_CATEGORY</key>
 		<string>Latest Version</string>
 		<key>POLICY_NAME</key>
@@ -30,16 +30,16 @@
 		<key>REINSTALL_BUTTON_TEXT</key>
 		<string>Reinstall</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string>Mozilla Firefox is a free and open source web browser.</string>
+		<string>Google Chrome is a free and open source web browser.</string>
 		<key>SELF_SERVICE_DISPLAY_NAME</key>
 		<string>Install Latest %NAME%</string>
-		<key>SELF_SERVICE_ICON</key>s
+		<key>SELF_SERVICE_ICON</key>
 		<string>%NAME%.png</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>2.3</string>
 	<key>ParentRecipe</key>
-	<string>com.github.autopkg.pkg.Firefox_EN</string>
+	<string>com.github.autopkg.pkg.googlechrome</string>
 	<key>Process</key>
 	<array>
 		<dict>
