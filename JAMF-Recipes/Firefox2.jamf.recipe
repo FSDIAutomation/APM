@@ -18,7 +18,7 @@
 		<key>INSTALL_BUTTON_TEXT</key>
 		<string>Install</string>
 		<key>NAME</key>
-		<string>Google Chrome</string>
+		<string>Firefox</string>
 		<key>POLICY_CATEGORY</key>
 		<string>Latest Version</string>
 		<key>POLICY_NAME</key>
@@ -30,10 +30,10 @@
 		<key>REINSTALL_BUTTON_TEXT</key>
 		<string>Reinstall</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string>Google Chrome is a free and open source web browser.</string>
+		<string>Mozilla Firefox is a free and open source web browser.</string>
 		<key>SELF_SERVICE_DISPLAY_NAME</key>
 		<string>Install Latest %NAME%</string>
-		<key>SELF_SERVICE_ICON</key>
+		<key>SELF_SERVICE_ICON</key>s
 		<string>%NAME%.png</string>
 	</dict>
 	<key>MinimumVersion</key>
