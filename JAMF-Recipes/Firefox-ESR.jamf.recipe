@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version of Firefox ESR and makes a pkg. Then, uploads the package to the Jamf Pro Server and creates a Self Service Policy and Smart Group.</string>
+	<string>Downloads the latest version of Firefox and makes a pkg. Then, uploads the package to the Jamf Pro Server and creates a Self Service Policy and Smart Group.</string>
 	<key>Identifier</key>
-	<string>com.github.jherrinjr.jamf.firefox-esr</string>
+	<string>com.github.jherrinjr.jamf.Firefox-ESR</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
@@ -13,11 +13,13 @@
 		<key>INSTALL_BUTTON_TEXT</key>
 		<string>Install</string>
 		<key>NAME</key>
-		<string>Firefox</string>
+		<string>Firefox ESR</string>
 		<key>POLICY_CATEGORY</key>
 		<string>Latest Version</string>
 		<key>POLICY_NAME</key>
-		<string>Install Latest FireFox ESR</string>
+		<string>Install Latest %NAME%</string>
+		<key>POLICY_RUN_COMMAND</key>
+		<string>chown -R &quot;$(stat -f%Su /dev/console):staff&quot; &quot;/Applications/%NAME%.app&quot; &amp;&amp; echo &quot;Corrected permissions for %NAME%.&quot;</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>Policy-install-latest.xml</string>
 		<key>REINSTALL_BUTTON_TEXT</key>
@@ -30,7 +32,7 @@
 		<string>Firefox.png</string>
 	</dict>
 	<key>MinimumVersion</key>
-	<string>1.0.0</string>
+	<string>2.3</string>
 	<key>ParentRecipe</key>
 	<string>com.github.jherrinjr.download.firefox-esr</string>
 	<key>Process</key>
