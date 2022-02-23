@@ -3,22 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version of Firefox and makes a pkg.
-</string>
+	<string>Downloads the latest version of Firefox and makes a pkg. Then, uploads the package to the Jamf Pro Server and creates a Self Service Policy and Smart Group.</string>
 	<key>Identifier</key>
-	<string>com.github.jherrinjr.jamf.Firefox</string>
+	<string>com.github.jherrinjr.jamf.Firefox-ESR</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
 		<string>Latest Version</string>
-		<key>GROUP_NAME</key>
-		<string>AllDevices</string>
-		<key>GROUP_TEMPLATE</key>
-		<string>SmartGroup-AllDevices.xml</string>
 		<key>INSTALL_BUTTON_TEXT</key>
 		<string>Install</string>
 		<key>NAME</key>
-		<string>Firefox</string>
+		<string>Firefox ESR</string>
 		<key>POLICY_CATEGORY</key>
 		<string>Latest Version</string>
 		<key>POLICY_NAME</key>
@@ -26,20 +21,20 @@
 		<key>POLICY_RUN_COMMAND</key>
 		<string>chown -R &quot;$(stat -f%Su /dev/console):staff&quot; &quot;/Applications/%NAME%.app&quot; &amp;&amp; echo &quot;Corrected permissions for %NAME%.&quot;</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>Policy-install-latest-featured.xml</string>
+		<string>Policy-install-latest.xml</string>
 		<key>REINSTALL_BUTTON_TEXT</key>
 		<string>Reinstall</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string>Mozilla Firefox is a free and open source web browser.</string>
+		<string>Mozilla Firefox ESR is a free and open source web browser.</string>
 		<key>SELF_SERVICE_DISPLAY_NAME</key>
 		<string>Install Latest %NAME%</string>
-		<key>SELF_SERVICE_ICON</key>s
-		<string>%NAME%.png</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>Firefox.png</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>2.3</string>
 	<key>ParentRecipe</key>
-	<string>com.github.autopkg.pkg.Firefox_EN</string>
+	<string>com.github.jherrinjr.download.firefox-esr</string>
 	<key>Process</key>
 	<array>
 		<dict>
