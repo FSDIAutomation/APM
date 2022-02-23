@@ -32,5 +32,7 @@
 				<string>APM</string>
 			</dict>
 		</array>
+		<key>ParentRecipe</key>
+		<string>com.github.jherrinjr.jamf.microsoftpowerpoint365</string>
 	</dict>
 </plist>
