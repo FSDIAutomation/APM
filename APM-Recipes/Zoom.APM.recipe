@@ -18,7 +18,7 @@
 					<key>applicationTitle</key>
 					<string>Zoom</string>
 					<key>generalPolicyName</key>
-					<string>Install Latest Zoom.us</string>
+					<string>Install Latest Zoom</string>
 					<key>patchSoftwareTitle</key>
 					<string>Zoom Client for Meetings</string>
 					<key>gammaDistributionMethod</key>
