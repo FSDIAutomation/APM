@@ -6,7 +6,7 @@
 	<string>Downloads the latest version of Firefox and makes a pkg.
 </string>
 	<key>Identifier</key>
-	<string>com.github.jherrinjr.jamf.Firefox</string>
+	<string>com.github.jherrinjr.jamf.Firefox2</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
@@ -33,7 +33,7 @@
 		<string>Mozilla Firefox is a free and open source web browser.</string>
 		<key>SELF_SERVICE_DISPLAY_NAME</key>
 		<string>Install Latest %NAME%</string>
-		<key>SELF_SERVICE_ICON</key>s
+		<key>SELF_SERVICE_ICON</key>
 		<string>%NAME%.png</string>
 	</dict>
 	<key>MinimumVersion</key>
