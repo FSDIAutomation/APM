@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad5c3b2d-2412-4eef-bc22-987bb8043458" name="Changes" comment="updated some descriptions">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAMF-Recipes/Firefox.jamf.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/JAMF-Recipes/Firefox.jamf.recipe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAMF-Recipes/Opera.jamf.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/JAMF-Recipes/Opera.jamf.recipe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAMF-Recipes/VLC.jamf.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/JAMF-Recipes/VLC.jamf.recipe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Templates/Policy-install-latest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/Policy-install-latest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APM-Recipes/Word.apm.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/APM-Recipes/Word.apm.recipe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
