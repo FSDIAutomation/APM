@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version of Google Chrome Universal and makes a pkg. 
+	<string>Downloads the latest version of Firefox and makes a pkg.
 </string>
 	<key>Identifier</key>
-	<string>com.github.jherrinjr.jamf.firefox</string>
+	<string>com.github.jherrinjr.jamf.Firefox</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
