@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Firefox ESR and makes a pkg. Then, uploads the package to the Jamf Pro Server and creates a Self Service Policy and Smart Group.</string>
 	<key>Identifier</key>
-	<string>com.github.jherrinjr.jamf.Firefox</string>
+	<string>com.github.jherrinjr.jamf.firefox-esr</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
