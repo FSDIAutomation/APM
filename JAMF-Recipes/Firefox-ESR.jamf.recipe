@@ -27,7 +27,7 @@
 		<key>SELF_SERVICE_DESCRIPTION</key>
 		<string>Mozilla Firefox ESR is a free and open source web browser.</string>
 		<key>SELF_SERVICE_DISPLAY_NAME</key>
-		<string>Install%NAME%</string>
+		<string>Install %NAME%</string>
 		<key>SELF_SERVICE_ICON</key>
 		<string>Firefox.png</string>
 	</dict>
