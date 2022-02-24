@@ -16,7 +16,7 @@
 			<key>Arguments</key>
 			<dict>
 				<key>applicationTitle</key>
-				<string>Firefox ESR</string>
+				<string>Firefox</string>
 				<key>generalPolicyName</key>
 				<string>Install Latest Firefox ESR</string>
 				<key>patchSoftwareTitle</key>
