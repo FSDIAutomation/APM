@@ -31,7 +31,7 @@
 		<key>SELF_SERVICE_DESCRIPTION</key>
 		<string>Microsoft PowerPoint allows the creation and presentation of professional slide decks.</string>
         <key>SELF_SERVICE_DISPLAY_NAME</key>
-		<string>Install %NAME%</string>
+		<string>%NAME%</string>
 		<key>SELF_SERVICE_ICON</key>
 		<string>MicrosoftPowerPoint365.png</string>
 	</dict>

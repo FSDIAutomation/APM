@@ -31,7 +31,7 @@
 		<key>SELF_SERVICE_DESCRIPTION</key>
 		<string>Microsoft Excel is a spreadsheet application featuring calculation, graphing tools, PivotTables, and a macro programming language called Visual Basic for Applications.</string>
         <key>SELF_SERVICE_DISPLAY_NAME</key>
-		<string>Install %NAME%</string>
+		<string>%NAME%</string>
 		<key>SELF_SERVICE_ICON</key>
 		<string>MicrosoftExcel365.png</string>
 	</dict>
