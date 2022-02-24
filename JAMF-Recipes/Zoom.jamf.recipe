@@ -19,7 +19,7 @@
 		<key>NAME</key>
 		<string>Zoom</string>
 		<key>POLICY_CATEGORY</key>
-		<string>Latest Version</string>
+		<string>Campus Standard</string>
 		<key>POLICY_NAME</key>
 		<string>Install Latest %NAME%</string>
 		<key>POLICY_RUN_COMMAND</key>
@@ -31,7 +31,7 @@
 		<key>SELF_SERVICE_DESCRIPTION</key>
 		<string>The Zoom app provides cloud-hosted video conferencing, plus online meetings and group messaging.</string>
 		<key>SELF_SERVICE_DISPLAY_NAME</key>
-		<string>Install Latest %NAME%</string>
+		<string>Install %NAME%</string>
 		<key>SELF_SERVICE_ICON</key>
 		<string>%NAME%.png</string>
 	</dict>
