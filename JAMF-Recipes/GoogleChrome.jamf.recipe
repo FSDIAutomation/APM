@@ -20,7 +20,7 @@
 		<key>NAME</key>
 		<string>Google Chrome</string>
 		<key>POLICY_CATEGORY</key>
-		<string>Latest Version</string>
+		<string>Campus Standard</string>
 		<key>POLICY_NAME</key>
 		<string>Install Latest %NAME%</string>
 		<key>POLICY_RUN_COMMAND</key>
@@ -32,7 +32,7 @@
 		<key>SELF_SERVICE_DESCRIPTION</key>
 		<string>Google Chrome is a free and open source web browser.</string>
 		<key>SELF_SERVICE_DISPLAY_NAME</key>
-		<string>Install Latest %NAME%</string>
+		<string>Install %NAME%</string>
 		<key>SELF_SERVICE_ICON</key>
 		<string>%NAME%.png</string>
 	</dict>

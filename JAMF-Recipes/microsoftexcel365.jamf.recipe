@@ -19,19 +19,19 @@
 		<key>NAME</key>
 		<string>Microsoft Excel</string>
 		<key>POLICY_CATEGORY</key>
-		<string>Latest Version</string>
+		<string>Campus Standard</string>
 		<key>POLICY_NAME</key>
 		<string>Install Latest %NAME%</string>
 		<key>POLICY_RUN_COMMAND</key>
 		<string>chown -R "$(stat -f%Su /dev/console):staff" "/Applications/%NAME%.app" &amp;&amp; echo "Corrected permissions for %NAME%."</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>Policy-install-latest-featured.xml</string>
+		<string>Policy-install-latest.xml</string>
 		<key>REINSTALL_BUTTON_TEXT</key>
 		<string>Reinstall</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
 		<string>Microsoft Excel is a spreadsheet application featuring calculation, graphing tools, PivotTables, and a macro programming language called Visual Basic for Applications.</string>
         <key>SELF_SERVICE_DISPLAY_NAME</key>
-		<string>Install Latest %NAME%</string>
+		<string>Install %NAME%</string>
 		<key>SELF_SERVICE_ICON</key>
 		<string>MicrosoftExcel365.png</string>
 	</dict>

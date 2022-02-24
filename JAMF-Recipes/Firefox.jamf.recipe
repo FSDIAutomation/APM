@@ -20,19 +20,19 @@
 		<key>NAME</key>
 		<string>Firefox</string>
 		<key>POLICY_CATEGORY</key>
-		<string>Latest Version</string>
+		<string>None</string>
 		<key>POLICY_NAME</key>
 		<string>Install Latest %NAME%</string>
 		<key>POLICY_RUN_COMMAND</key>
 		<string>chown -R &quot;$(stat -f%Su /dev/console):staff&quot; &quot;/Applications/%NAME%.app&quot; &amp;&amp; echo &quot;Corrected permissions for %NAME%.&quot;</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>Policy-install-latest-featured.xml</string>
+		<string>Policy-install-latest.xml</string>
 		<key>REINSTALL_BUTTON_TEXT</key>
 		<string>Reinstall</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
 		<string>Mozilla Firefox is a free and open source web browser.</string>
 		<key>SELF_SERVICE_DISPLAY_NAME</key>
-		<string>Install Latest %NAME%</string>
+		<string>Install %NAME%</string>
 		<key>SELF_SERVICE_ICON</key>
 		<string>%NAME%.png</string>
 	</dict>
