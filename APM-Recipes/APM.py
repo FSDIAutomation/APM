@@ -22,7 +22,7 @@ class PST:
         self.pstName = EnvObject.env.get("patchSoftwareTitle")
         apiUsername = EnvObject.env.get("API_USERNAME")
         apiPassword = EnvObject.env.get("API_PASSWORD")
-        basicToken = base64.b64encode(f"{apiUsername}:{apiPassword}")
+        basicToken = str(base64.b64encode(f"{apiUsername}:{apiPassword}"))
         self.getJsonHeader = {"Authorization":f"Basic {basicToken}"}
         self.getJsonHeader["Accept"] = "application/json"
         self.getXmlHeader = {"Authorization":f"Basic {basicToken}"}
