@@ -23,12 +23,11 @@ class PST:
         apiUsername = EnvObject.env.get("API_USERNAME")
         apiPassword = EnvObject.env.get("API_PASSWORD")
         auth = f"{apiUsername}:{apiPassword}"
-        basicToken = base64.b64encode(bytes(auth,encoding="ascii").decode('ascii'))
-        basicToken = basicToken.decode("utf-8")
-        self.getJsonHeader = {"authorization":f"basic {basicToken}"}
+        basicToken = base64.b64encode(bytes(auth)).decode("ascii")
+        self.getJsonHeader = {"authorization":"basic %s" % basicToken}
         self.getJsonHeader["Accept"] = "application/json"
-        self.getXmlHeader = {"authorization":f"basic {basicToken}"}
-        self.postHeader = {"authorization":f"basic {basicToken}"}
+        self.getXmlHeader = {"authorization":"basic %s" % basicToken}
+        self.postHeader = {"authorization":"basic %s" % basicToken}
         self.postHeader["Content-Type"] = "application/xml"
         self.pstID = self.getPstID(self.pstName)
         self.generalPkg = self.getGeneralPolicyPkg()
