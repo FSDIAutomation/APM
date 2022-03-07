@@ -335,14 +335,12 @@ class PST:
 
     def getPstID(self, pstTitle):
         self.EnvObject.logger.info("Starting getPstId...Change")
-        self.EnvObject.logger.info(self.getJsonHeader)
         allPatchesURL = f"{self.jamfUrl}/JSSResource/patchsoftwaretitles"
         # self.EnvObject.logger.info(allPatchesURL)
         response = self.EnvObject.download(
             url=allPatchesURL, headers=self.getJsonHeader
         )
         # self.EnvObject.logger.info(response)
-        print(response)
         if not response:
             self.EnvObject.logger.info("UNABLE TO GET RESPONSE FROM PSTID!")
             return 0
