@@ -4,6 +4,7 @@ import json
 import xml.etree.ElementTree as ET
 import time
 import sys
+import base64
 from autopkglib import Processor, ProcessorError, URLGetter
 
 APPNAME = "APM"
@@ -21,10 +22,11 @@ class PST:
         self.pstName = EnvObject.env.get("patchSoftwareTitle")
         apiUsername = EnvObject.env.get("API_USERNAME")
         apiPassword = EnvObject.env.get("API_PASSWORD")
-        self.getJsonHeader = {"Authorization":f"{apiUsername}:{apiPassword}"}
+        basicToken = base64.b64encode(f"{apiUsername}:{apiPassword}")
+        self.getJsonHeader = {"Authorization":f"Basic {basicToken}"}
         self.getJsonHeader["Accept"] = "application/json"
-        self.getXmlHeader = {"Authorization":f"{apiUsername}:{apiPassword}"}
-        self.postHeader = {"Authorization":f"{apiUsername}:{apiPassword}"}
+        self.getXmlHeader = {"Authorization":f"Basic {basicToken}"}
+        self.postHeader = {"Authorization":f"Basic {basicToken}"}
         self.postHeader["Content-Type"] = "application/xml"
         self.pstID = self.getPstID(self.pstName)
         self.generalPkg = self.getGeneralPolicyPkg()
