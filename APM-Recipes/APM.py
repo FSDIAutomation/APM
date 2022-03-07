@@ -21,10 +21,10 @@ class PST:
         self.pstName = EnvObject.env.get("patchSoftwareTitle")
         apiUsername = EnvObject.env.get("API_USERNAME")
         apiPassword = EnvObject.env.get("API_PASSWORD")
-        self.getJsonHeader = {apiUsername:apiPassword}
+        self.getJsonHeader = {str(apiUsername):str(apiPassword)}
         self.getJsonHeader["Accept"] = "application/json"
-        self.getXmlHeader = {apiUsername:apiPassword}
-        self.postHeader = {apiUsername:apiPassword}
+        self.getXmlHeader = {str(apiUsername):str(apiPassword)}
+        self.postHeader = {str(apiUsername):str(apiPassword)}
         self.postHeader["Content-Type"] = "application/xml"
         self.pstID = self.getPstID(self.pstName)
         self.generalPkg = self.getGeneralPolicyPkg()
