@@ -23,7 +23,7 @@ class PST:
         apiUsername = EnvObject.env.get("API_USERNAME")
         apiPassword = EnvObject.env.get("API_PASSWORD")
         auth = f"{apiUsername}:{apiPassword}"
-        basicToken = base64.b64encode(bytes(auth,encoding="ascii").decode('ascii'))
+        basicToken = base64.b64encode(bytes(auth,encoding="ascii").decode('utf-8'))
         self.getJsonHeader = {"authorization":f"basic {basicToken}"}
         self.getJsonHeader["Accept"] = "application/json"
         self.getXmlHeader = {"authorization":f"basic {basicToken}"}
@@ -336,7 +336,6 @@ class PST:
         self.EnvObject.logger.info("Starting getPstId...Change")
         self.EnvObject.logger.info(self.getJsonHeader)
         allPatchesURL = f"{self.jamfUrl}/JSSResource/patchsoftwaretitles"
-        self.EnvObject.logger.info(self.getJsonHeader)
         # self.EnvObject.logger.info(allPatchesURL)
         response = self.EnvObject.download(
             url=allPatchesURL, headers=self.getJsonHeader
