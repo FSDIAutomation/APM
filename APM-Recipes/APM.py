@@ -1,7 +1,6 @@
 import logging.handlers
 import os
 import json
-import urllib3
 import xml.etree.ElementTree as ET
 import time
 import sys
@@ -22,16 +21,10 @@ class PST:
         self.pstName = EnvObject.env.get("patchSoftwareTitle")
         apiUsername = EnvObject.env.get("API_USERNAME")
         apiPassword = EnvObject.env.get("API_PASSWORD")
-        self.getJsonHeader = urllib3.make_headers(
-            basic_auth=f"{apiUsername}:{apiPassword}"
-        )
+        self.getJsonHeader = {apiUsername:apiPassword}
         self.getJsonHeader["Accept"] = "application/json"
-        self.getXmlHeader = urllib3.make_headers(
-            basic_auth=f"{apiUsername}:{apiPassword}"
-        )
-        self.postHeader = urllib3.make_headers(
-            basic_auth=f"{apiUsername}:{apiPassword}"
-        )
+        self.getXmlHeader = {apiUsername:apiPassword}
+        self.postHeader = {apiUsername:apiPassword}
         self.postHeader["Content-Type"] = "application/xml"
         self.pstID = self.getPstID(self.pstName)
         self.generalPkg = self.getGeneralPolicyPkg()
