@@ -23,7 +23,8 @@ class PST:
         apiUsername = EnvObject.env.get("API_USERNAME")
         apiPassword = EnvObject.env.get("API_PASSWORD")
         auth = f"{apiUsername}:{apiPassword}"
-        basicToken = base64.b64encode(auth).decode()
+        basicToken = auth.encode("utf-8")
+        basicToken = basicToken.decode()
         self.getJsonHeader = {"Authorization":f"Basic {basicToken}"}
         self.getJsonHeader["Accept"] = "application/json"
         self.getXmlHeader = {"Authorization":f"Basic {basicToken}"}
