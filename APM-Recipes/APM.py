@@ -239,6 +239,7 @@ class PST:
             xmlString,
         )
         response = self.EnvObject.download_with_curl(curl_cmd)
+        self.EnvObject.logger.info(response)
         if not response:
             self.EnvObject.logger.ERROR("UPDATE TO JAMF FAILED!")
             self.EnvObject.logger.info("Leaving updatePolicyVersion.")
