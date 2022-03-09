@@ -222,8 +222,8 @@ class PST:
             f"</target_version></general></patch_policy>"
         )
         postURL = f"{self.jamfUrl}/JSSResource/patchpolicies/id/{policyID}"
-        auth = self.postHeader["Authorization"]
-        contentType = self.postHeader["Content-Type"]
+        auth = f"Authorization: {self.postHeader['Authorization']}"
+        contentType = f"Content-type: {self.postHeader['Content-Type']}"
         curl_cmd = (
             self.EnvObject.curl_binary(),
             "--url",
