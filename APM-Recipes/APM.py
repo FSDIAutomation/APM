@@ -83,7 +83,7 @@ class PST:
 
         data = ET.tostring(root)
         # header = self.postHeader
-        auth = f"authorization: {self.postHeader['authorization']}"
+        auth = f"Authorization: {self.postHeader['Authorization']}"
         type = f"Content-type: {self.postHeader['Content-Type']}"
         curl_cmd = (
             self.EnvObject.curl_binary(),
@@ -152,7 +152,7 @@ class PST:
         xmlString = ET.tostring(root, encoding="unicode", method="xml")
         xmlString = xmlString.replace("\n", "")
         postURL = f"{self.jamfUrl}/JSSResource/patchpolicies/softwaretitleconfig/id/{self.pstID}"
-        auth = f"authorization: {self.postHeader['authorization']}"
+        auth = f"Authorization: {self.postHeader['Authorization']}"
         type = f"Content-type: {self.postHeader['Content-Type']}"
         curl_cmd = (
             self.EnvObject.curl_binary(),
