@@ -43,11 +43,13 @@ class PST:
             self.EnvObject.logger.error("GET PST FAILED!")
         pst = response.decode("utf-8")
         root = ET.fromstring(pst)
+        self.EnvObject.logger.info("Version from General Policy:")
         self.EnvObject.logger.info(self.generalPkg["version"])
         for definition in root.findall("versions/version"):
             pstVersion = (
                 definition.findtext("software_version").split("(", -1)[0].strip()
             )
+            self.EnvObject.logger.info("Version from PST:")
             self.EnvObject.logger.info(pstVersion)
             if pstVersion in self.generalPkg["version"]:
                 self.EnvObject.logger.info(
@@ -220,8 +222,8 @@ class PST:
             f"</target_version></general></patch_policy>"
         )
         postURL = f"{self.jamfUrl}/JSSResource/patchpolicies/id/{policyID}"
-        auth = f"authorization: {self.postHeader['authorization']}"
-        contentType = f"Content-type: {self.postHeader['Content-Type']}"
+        auth = self.postHeader["Authorization"]
+        contentType = self.postHeader["Content-Type"]
         curl_cmd = (
             self.EnvObject.curl_binary(),
             "--url",
