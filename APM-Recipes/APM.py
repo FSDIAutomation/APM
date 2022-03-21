@@ -25,10 +25,10 @@ class PST:
         auth = f"{apiUsername}:{apiPassword}"
         authEncode = auth.encode("ascii")
         basicToken = base64.b64encode(authEncode).decode()
-        self.getJsonHeader = {"Authorization":"Basic %s" % basicToken}
+        self.getJsonHeader = {"Authorization": "Basic %s" % basicToken}
         self.getJsonHeader["Accept"] = "application/json"
-        self.getXmlHeader = {"Authorization":"Basic %s" % basicToken}
-        self.postHeader = {"Authorization":"Basic %s" % basicToken}
+        self.getXmlHeader = {"Authorization": "Basic %s" % basicToken}
+        self.postHeader = {"Authorization": "Basic %s" % basicToken}
         self.postHeader["Content-Type"] = "application/xml"
         self.pstID = self.getPstID(self.pstName)
         self.generalPkg = self.getGeneralPolicyPkg()

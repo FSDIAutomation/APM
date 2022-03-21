@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Move Firefox package in JAMF PST</string>
+	<string>Move Adobe Reader package in JAMF PST</string>
 	<key>Identifier</key>
-	<string>com.github.jherrinjr.APM.Firefox</string>
+	<string>com.github.jherrinjr.APM.AdobeReader</string>
 	<key>Input</key>
 	<dict/>
 	<key>MinimumVersion</key>
@@ -16,11 +16,11 @@
 			<key>Arguments</key>
 			<dict>
 				<key>applicationTitle</key>
-				<string>Firefox</string>
+				<string>AdobeReader</string>
 				<key>generalPolicyName</key>
-				<string>Install Latest Firefox</string>
+				<string>Install Latest Adobe Reader</string>
 				<key>patchSoftwareTitle</key>
-				<string>Mozilla Firefox</string>
+				<string>Adobe Reader</string>
 				<key>gammaDistributionMethod</key>
 				<string>prompt</string>
 				<key>productionDelay</key>
@@ -33,6 +33,6 @@
 		</dict>
 	</array>
 	<key>ParentRecipe</key>
-	<string>com.github.jherrinjr.jamf.Firefox</string>
+	<string>com.github.jherrinjr.jamf.AdobeReader</string>
 </dict>
 </plist>
