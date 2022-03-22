@@ -20,7 +20,7 @@
 				<key>generalPolicyName</key>
 				<string>Install Latest Adobe Reader</string>
 				<key>patchSoftwareTitle</key>
-				<string>Adobe Reader</string>
+				<string>Adobe Acrobat Reader DC</string>
 				<key>gammaDistributionMethod</key>
 				<string>prompt</string>
 				<key>productionDelay</key>
