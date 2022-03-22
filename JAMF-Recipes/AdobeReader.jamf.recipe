@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version of Adobe Acrobat Reader Reader and makes a pkg.
+	<string>Downloads the latest version of Adobe Acrobat Reader DC and makes a pkg.
 </string>
 	<key>Identifier</key>
 	<string>com.github.jherrinjr.jamf.AdobeReader</string>
@@ -30,7 +30,7 @@
 		<key>REINSTALL_BUTTON_TEXT</key>
 		<string>Reinstall</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string>Adobe Acrobat Reader software is the free global standard for reliably viewing, printing, and commenting on PDF documents.</string>
+		<string>Adobe Acrobat Reader DC software is the free global standard for reliably viewing, printing, and commenting on PDF documents.</string>
 		<key>SELF_SERVICE_DISPLAY_NAME</key>
 		<string>%NAME%</string>
 		<key>SELF_SERVICE_ICON</key>
@@ -39,7 +39,7 @@
 	<key>MinimumVersion</key>
 	<string>11</string>
 	<key>ParentRecipe</key>
-	<string>com.github.autopkg.pkg.AdobeReader</string>
+	<string>com.github.autopkg.pkg.AdobeReaderDC</string>
 	<key>Process</key>
 	<array>
 		<dict>
