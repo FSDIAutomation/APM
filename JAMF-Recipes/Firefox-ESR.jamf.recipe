@@ -30,6 +30,8 @@
 		<string>Install %NAME%</string>
 		<key>SELF_SERVICE_ICON</key>
 		<string>Firefox.png</string>
+		<key>TRIGGER_OTHER</key>
+		<string>installLatest-%NAME%</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>2.3</string>
