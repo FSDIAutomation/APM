@@ -4,6 +4,8 @@
 		<name>%POLICY_NAME%</name>
 		<enabled>true</enabled>
 		<frequency>Ongoing</frequency>
+		<trigger>EVENT</trigger>
+		<trigger_other>%TRIGGER_OTHER%</trigger_other>
 		<category>
 			<name>%POLICY_CATEGORY%</name>
 		</category>
