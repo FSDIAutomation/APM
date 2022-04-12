@@ -37,7 +37,7 @@
 		<string>GoogleDrive.png</string>
 	</dict>
 	<key>MinimumVersion</key>
-	<string>2.3</string>
+	<string>0.4.0</string>
 	<key>ParentRecipe</key>
 	<key>com.github.nstrauss.pkg.GoogleDrive</key>
 	<key>Process</key>
