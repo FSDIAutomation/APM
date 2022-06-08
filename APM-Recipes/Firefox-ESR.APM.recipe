@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Move Firefox package in JAMF PST</string>
 	<key>Identifier</key>
-	<string>com.github.jherrinjr.APM.Firefox-ESR</string>
+	<string>com.github.fsdiautomation.APM.Firefox-ESR</string>
 	<key>Input</key>
 	<dict/>
 	<key>MinimumVersion</key>
@@ -33,6 +33,6 @@
 		</dict>
 	</array>
 	<key>ParentRecipe</key>
-	<string>com.github.jherrinjr.jamf.Firefox-ESR</string>
+	<string>com.github.fsdiautomation.jamf.Firefox-ESR</string>
 </dict>
 </plist>

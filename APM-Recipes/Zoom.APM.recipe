@@ -5,7 +5,7 @@
 		<key>Description</key>
 		<string>Move Zoom package in JAMF PST</string>
 		<key>Identifier</key>
-		<string>com.github.jherrinjr.APM.Zoom</string>
+		<string>com.github.fsdiautomation.APM.Zoom</string>
 		<key>Input</key>
 		<dict></dict>
 		<key>MinimumVersion</key>
@@ -33,6 +33,6 @@
 			</dict>
 		</array>
 		<key>ParentRecipe</key>
-		<string>com.github.jherrinjr.jamf.zoom</string>
+		<string>com.github.fsdiautomation.jamf.zoom</string>
 	</dict>
 </plist>

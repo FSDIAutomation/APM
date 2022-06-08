@@ -6,7 +6,7 @@
 	<string>Downloads the latest version of Firefox and makes a pkg.
 </string>
 	<key>Identifier</key>
-	<string>com.github.jherrinjr.jamf.Firefox</string>
+	<string>com.github.fsdiautomation.jamf.Firefox</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>

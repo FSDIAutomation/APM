@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Move Box Drive package in JAMF PST</string>
 	<key>Identifier</key>
-	<string>com.github.jherrinjr.APM.BoxDrive</string>
+	<string>com.github.fsdiautomation.APM.BoxDrive</string>
 	<key>Input</key>
 	<dict/>
 	<key>MinimumVersion</key>
@@ -33,6 +33,6 @@
 		</dict>
 	</array>
 	<key>ParentRecipe</key>
-	<string>com.github.jherrinjr.jamf.BoxDrive</string>
+	<string>com.github.fsdiautomation.jamf.BoxDrive</string>
 </dict>
 </plist>

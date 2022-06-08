@@ -6,7 +6,7 @@
 	<string>Downloads the latest version of Box Drive and makes a pkg.
 </string>
 	<key>Identifier</key>
-	<string>com.github.jherrinjr.jamf.BoxDrive</string>
+	<string>com.github.fsdiautomation.jamf.BoxDrive</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>

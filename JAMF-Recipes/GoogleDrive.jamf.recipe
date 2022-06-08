@@ -6,7 +6,7 @@
 	<string>Downloads the latest version of Google Drive Universal and makes a pkg.
 </string>
 	<key>Identifier</key>
-	<string>com.github.jherrinjr.jamf.googledrive</string>
+	<string>com.github.fsdiautomation.jamf.googledrive</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>

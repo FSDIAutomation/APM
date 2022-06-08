@@ -6,7 +6,7 @@
 	<string>Downloads the latest version of Google Chrome Universal and makes a pkg. 
 </string>
 	<key>Identifier</key>
-	<string>com.github.jherrinjr.jamf.googlechrome</string>
+	<string>com.github.fsdiautomation.jamf.googlechrome</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>

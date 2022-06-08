@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Move opera package in JAMF PST</string>
 	<key>Identifier</key>
-	<string>com.github.jherrinjr.apm.opera</string>
+	<string>com.github.fsdiautomation.apm.opera</string>
 	<key>Input</key>
 	<dict/>
 	<key>MinimumVersion</key>
@@ -33,6 +33,6 @@
 		</dict>
 	</array>
 	<key>ParentRecipe</key>
-	<string>com.github.jherrinjr.jamf.opera</string>
+	<string>com.github.fsdiautomation.jamf.opera</string>
 </dict>
 </plist>

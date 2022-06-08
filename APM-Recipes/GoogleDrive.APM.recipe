@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Move Google Drive package in JAMF PST</string>
 	<key>Identifier</key>
-	<string>com.github.jherrinjr.APM.GoogleDrive</string>
+	<string>com.github.fsdiautomation.APM.GoogleDrive</string>
 	<key>Input</key>
 	<dict/>
 	<key>MinimumVersion</key>
@@ -33,6 +33,6 @@
 		</dict>
 	</array>
 	<key>ParentRecipe</key>
-	<string>com.github.jherrinjr.jamf.googledrive</string>
+	<string>com.github.fsdiautomation.jamf.googledrive</string>
 </dict>
 </plist>

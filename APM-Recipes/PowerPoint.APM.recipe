@@ -5,7 +5,7 @@
 		<key>Description</key>
 		<string>Move PowerPoint package in JAMF PST</string>
 		<key>Identifier</key>
-		<string>com.github.jherrinjr.APM.PowerPoint</string>
+		<string>com.github.fsdiautomation.APM.PowerPoint</string>
 		<key>Input</key>
 		<dict></dict>
 		<key>MinimumVersion</key>
@@ -33,6 +33,6 @@
 			</dict>
 		</array>
 		<key>ParentRecipe</key>
-		<string>com.github.jherrinjr.jamf.microsoftpowerpoint365</string>
+		<string>com.github.fsdiautomation.jamf.microsoftpowerpoint365</string>
 	</dict>
 </plist>

@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Firefox and makes a pkg. Then, uploads the package to the Jamf Pro Server and creates a Self Service Policy and Smart Group.</string>
 	<key>Identifier</key>
-	<string>com.github.jherrinjr.jamf.Firefox-ESR</string>
+	<string>com.github.fsdiautomation.jamf.Firefox-ESR</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
@@ -36,7 +36,7 @@
 	<key>MinimumVersion</key>
 	<string>2.3</string>
 	<key>ParentRecipe</key>
-	<string>com.github.jherrinjr.download.firefox-esr</string>
+	<string>com.github.fsdiautomation.download.firefox-esr</string>
 	<key>Process</key>
 	<array>
 		<dict>

@@ -5,7 +5,7 @@
 		<key>Description</key>
 		<string>Move Excel package in JAMF PST</string>
 		<key>Identifier</key>
-		<string>com.github.jherrinjr.APM.Excel</string>
+		<string>com.github.fsdiautomation.APM.Excel</string>
 		<key>Input</key>
 		<dict></dict>
 		<key>MinimumVersion</key>
@@ -33,6 +33,6 @@
 			</dict>
 		</array>
 		<key>ParentRecipe</key>
-		<string>com.github.jherrinjr.jamf.microsoftexcel365</string>
+		<string>com.github.fsdiautomation.jamf.microsoftexcel365</string>
 	</dict>
 </plist>

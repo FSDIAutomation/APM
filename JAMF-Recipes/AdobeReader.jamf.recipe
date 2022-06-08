@@ -6,7 +6,7 @@
 	<string>Downloads the latest version of Adobe Acrobat Reader DC and makes a pkg.
 </string>
 	<key>Identifier</key>
-	<string>com.github.jherrinjr.jamf.AdobeReader</string>
+	<string>com.github.fsdiautomation.jamf.AdobeReader</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>

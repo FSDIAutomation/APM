@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads Opera disk image and builds a package, then uploads to the JSS.</string>
 	<key>Identifier</key>
-	<string>com.github.jherrinjr.jamf.opera</string>
+	<string>com.github.fsdiautomation.jamf.opera</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
